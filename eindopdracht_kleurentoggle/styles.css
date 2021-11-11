@@ -1,0 +1,61 @@
+body {
+	background-color: seashell;
+	overflow: hidden;
+	max-width: 100%;
+}
+
+img {
+	cursor: pointer;
+	width: 10%;
+}
+
+h1 {
+	position: absolute;
+	right: 500px;
+	top: 300px;
+	font-size: 3rem;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0 0 0 10px;
+	padding: 0;
+	width: 100%;
+	visibility: hidden;
+	position: absolute;
+	left: -600px;
+	transition: all 900ms ease-in-out;
+}
+
+ul li {
+	border: 2px solid lavender;
+	cursor: pointer;
+	font-size: 1.2rem;
+	padding: 20px 20px 20px 30px;
+	width: 30%;
+}
+
+.show {
+	visibility: visible;
+	left: 10px;
+}
+
+.backgr-lavender {
+	background-color: lavender;
+}
+
+.backgr-rose {
+	background-color: mistyrose;
+}
+
+.backgr-orchid {
+	background-color: orchid;
+}
+
+.backgr-violet {
+	background-color: violet;
+}
+
+.backgr-cornflower {
+	background-color: cornflowerblue;
+}
